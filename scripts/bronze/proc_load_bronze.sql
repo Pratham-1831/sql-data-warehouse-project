@@ -128,7 +128,7 @@ BEGIN
         print'Load Duration:'+CAST(DATEDIFF(second,@start_time,@end_time)AS NVARCHAR)+' seconds';
         print'--------------------';
 
-     set @batch_end_time=GETDATE();
+      set @batch_end_time=GETDATE();
       print'Load Duration:'+CAST(DATEDIFF(second,@batch_start_time,@batch_end_time)AS NVARCHAR)+' seconds';
       print'--------------------';
         
